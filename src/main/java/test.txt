@@ -1,2 +1,2 @@
 test pulling and pushing
-test pulling and pushing
+test pulling
