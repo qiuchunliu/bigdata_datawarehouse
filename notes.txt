@@ -1,0 +1,5 @@
+1、报错：
+    java.lang.NoClassDefFoundError: scala/xml/MetaData
+    解决：调整各个组件的版本号
+
+2、
