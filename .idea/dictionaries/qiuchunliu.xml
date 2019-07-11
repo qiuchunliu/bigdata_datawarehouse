@@ -5,6 +5,7 @@
       <w>datawarehouse</w>
       <w>hdfs</w>
       <w>inpath</w>
+      <w>leftjoin</w>
       <w>oneday</w>
       <w>projectfile</w>
       <w>qfbap</w>

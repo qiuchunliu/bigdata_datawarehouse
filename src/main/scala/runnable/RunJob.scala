@@ -23,14 +23,14 @@ object RunJob {
   def query(): Unit ={
     val ssc: SparkSession = ContextUtil.getHiveContext
 //    val sql: String = ConfigManager.getProp("dm_sql")
-    val dm_wide_table: String = ConfigManager.getProp("dm_wide_table")
+    val dm_wide_table: String = ConfigManager.getProp("sql_test")
     val df: DataFrame = ssc.sql(dm_wide_table)
 //    // 保存到hdfs
 //    df.write.csv("hdfs://t21:9000/spark/datawarehouse2")
     val prop: Properties = getJdbcProp
     val jdbc_url: String = prop.getProperty("url")
     // 写入到mysql
-    df.write.jdbc(jdbc_url, "dm_user_basic", prop)
+    df.write.jdbc(jdbc_url, "dm_user_basic1", prop)
 
 
 //    // 导入到hive >>> 成功 ！
