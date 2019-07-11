@@ -3,7 +3,6 @@ package utils
 import java.util.Properties
 
 import config.ConfigManager
-import org.apache.spark.SparkConf
 
 object JdbcUtil {
 
