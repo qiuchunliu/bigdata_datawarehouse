@@ -54,3 +54,4 @@ join
      qfbap_dwd.dwd_user_extend ue
 on
     us.user_id = ue.user_id;
+

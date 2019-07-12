@@ -22,12 +22,13 @@ object RunJob {
 //    df.write.csv("hdfs://t21:9000/spark/datawarehouse2")
     val prop: Properties = JdbcUtil.getJdbcParams
     val jdbc_url: String = prop.getProperty("url")
-    // 写入到mysql
-    df.write.mode(saveMode = "append").jdbc(jdbc_url, "dm_user_basic1", prop)
+//    // 写入到mysql
+//    // 要先在mysql里建表，指定好数据类型
+//    df.write.mode(saveMode = "append").jdbc(jdbc_url, "dm_user_basic1", prop)
 
 
-//    // 导入到hive >>> 成功 ！
-//    df.write.mode(saveMode = "append").insertInto("qfbap_dm.dm_user_basic")
+    // 导入到hive >>> 成功 ！
+    df.write.mode(saveMode = "append").insertInto("qfbap_dm.dm_user_basic")
   }
 
 }
