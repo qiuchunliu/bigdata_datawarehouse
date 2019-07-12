@@ -1,18 +1,11 @@
 package runnable
 
-import constant.Constant
 import org.apache.spark.sql.SparkSession
+import utils.ContextUtil
 
 object user_visit {
 
-  val ssc: SparkSession =
-    SparkSession
-      .builder()
-      .enableHiveSupport()
-      .appName(Constant.SPARK_APPNAME)
-      .master(Constant.SPARK_MASTER)
-      .getOrCreate()
-
+    private val ssc: SparkSession = ContextUtil.getHiveContext
 
   def main(args: Array[String]): Unit = {
     run_it()
