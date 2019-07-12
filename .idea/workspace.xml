@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2f68311-882b-4544-bb18-f50c2e2b700a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/runnable/user_visit.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/runnable/user_visit.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/runnable/user_visit.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
@@ -39,6 +39,15 @@
               <folding>
                 <element signature="e#18#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -73,7 +82,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/config/ConfigManager.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/JdbcUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/ContextUtil.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/basic.properties" />
         <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/dm_basic.properties" />
@@ -82,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/constant/Constant.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sql_file/temp.sql" />
         <option value="$PROJECT_DIR$/src/main/scala/runnable/user_visit.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -329,7 +338,7 @@
       <workItem from="1562828162921" duration="15600000" />
       <workItem from="1562891710302" duration="3357000" />
       <workItem from="1562900906762" duration="315000" />
-      <workItem from="1562918583064" duration="10570000" />
+      <workItem from="1562918583064" duration="10621000" />
     </task>
     <task id="LOCAL-00001" summary="commit first time">
       <created>1562750695509</created>
@@ -443,11 +452,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562930925904</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="v_11">
+      <created>1562931467281</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562931467281</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56406000" />
+    <option name="totallyTimeSpent" value="56457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sql_file/dwd_to_dm_mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -797,6 +806,13 @@
           <folding>
             <element signature="e#18#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
         </state>
       </provider>
     </entry>
