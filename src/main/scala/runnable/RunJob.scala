@@ -18,7 +18,7 @@ object RunJob {
 //    val sql: String = ConfigManager.getProp("dm_sql")
     val dm_wide_table: String = ConfigManager.getProp("dm_wide_table")
     val df: DataFrame = ssc.sql(dm_wide_table)
-//    // 保存到hdfs
+//    // 保存到hdfs  >>> 成功 ！
 //    df.write.csv("hdfs://t21:9000/spark/datawarehouse2")
     val prop: Properties = JdbcUtil.getJdbcParams
     val jdbc_url: String = prop.getProperty("url")
