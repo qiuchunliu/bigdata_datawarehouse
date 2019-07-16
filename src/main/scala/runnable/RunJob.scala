@@ -30,12 +30,12 @@ object RunJob {
     val jdbc_url: String = prop.getProperty("url")
 //    // 写入到mysql
 //    // 要先在mysql里建表，指定好数据类型
-//    df.write.mode(saveMode = "append").jdbc(jdbc_url, "dm_user_basic", prop)
+    df.write.mode(saveMode = "append").jdbc(jdbc_url, "dm_user_basic", prop)
 
     dm_user_visit_df.show(10)
 
     // 导入到hive >>> 成功 ！
-//    df.write.mode(saveMode = "append").insertInto("qfbap_dm.dm_user_basic")
+    df.write.mode(saveMode = "append").insertInto("qfbap_dm.dm_user_basic")
   }
 
 }
